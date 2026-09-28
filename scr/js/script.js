@@ -61,3 +61,16 @@ console.log(a >20 || b < a);
 let habilitacao = true;
 let dirigir = (idade >=18) && habilitacao;
 console.log(`O usuario pode dirigir?`, dirigir);
+
+/* Estrutura condicional */
+
+if(true) {
+    console.log("É verdadeiro")
+}
+else {
+    console.log("É falso")
+}
+
+if(a + b >=15){
+    console.log(`A soma de ${a} + ${b} é maior que ${a + c}`)
+}
